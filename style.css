@@ -1,0 +1,43 @@
+body{
+
+    font-family: 'Anton', sans-serif;
+}
+p{
+    color: gray;
+}
+#pinkjack{
+    color: rgb(243, 81, 108);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 1cm;
+    padding-top: 2cm;
+   
+
+ 
+}
+.half-width img{
+    width: 100%;
+
+
+}
+.first-backimage{
+
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    height: 500px;
+
+}
+section{
+    height:500px;
+}
+.link-button{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background-color: palevioletred;
+}
