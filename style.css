@@ -12,26 +12,31 @@ p{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-left: 1cm;
-    padding-top: 2cm;
-   
-
- 
+    padding-left: 3%;   
 }
 .half-width img{
-    width: 100%;
-
-
+    width: 40%;
+}
+.full-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 .first-backimage{
 
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
-    height: 500px;
+    height: 200px;
 
 }
 section{
-    height:500px;
+    height: 550px;
+}
+.sec-backimage{
+    background-image: url("iamges/biography-bg.png");
+    background-repeat: no-repeat;
+    height: 300px;
 }
 .link-button{
     text-decoration: none;
@@ -40,4 +45,47 @@ section{
     padding: 10px 12px;
     border-radius: 10px;
     background-color: palevioletred;
+}
+
+#center{
+    font-size: 40px;
+    text-align: center;
+}
+.work img{
+    width: 25%;
+    margin: 4%;
+
+}
+.ali-baba{
+text-align: center;
+
+}
+#say {
+    font-size: 40px;
+}
+#baba{
+    font-size: 25px;
+}
+#taha{
+    font-size: 15px;
+}
+.email{
+    text-align: center;
+    background-color:rgb(255, 192, 203);
+    border-radius: 10px;
+    padding: 40px 0px;
+    width: 50%;
+    color: white;
+    margin: 0 auto;
+
+}
+
+#com{
+    font-size: 30px;
+    color:darkred;
+}
+#me{
+        color:darkred;}
+footer{
+    text-align: center;
 }
